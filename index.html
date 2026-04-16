@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Platform Engineering Hiring Blueprint | Sorint.US</title>
+  <meta name="description" content="Salary benchmarks, team structures, and a hiring roadmap for platform engineering teams. Based on 500+ practitioners. Built by engineers, not recruiters.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="wide">
+      <a href="https://sorint.com" target="_blank" rel="noopener">
+        <img src="images/SORINT.us-dark-blue-black-300x85.png" alt="SORINT.US">
+      </a>
+      <a href="#talk" class="header-cta">Book a Free Assessment</a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="label">2026 Report</span>
+        <h1>The Platform Engineering<br><span class="text-gradient">Hiring Blueprint</span></h1>
+        <p class="subhead">
+          Salary benchmarks. Team structures. A hiring roadmap.
+          Based on data from 500+ practitioners.
+          Built by engineers who do this work every day &mdash; not recruiters.
+        </p>
+        <nav class="jump-nav">
+          <a href="#salaries">Salary Data</a>
+          <a href="#team">Team Roles</a>
+          <a href="#stages">Hiring Sequence</a>
+          <a href="#maturity">Maturity Model</a>
+          <a href="#playbook">Hiring Playbook</a>
+          <a href="#blended">Blended Teams</a>
+          <a href="#talk">Talk to an Engineer</a>
+        </nav>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="images/hero.jpg" alt="Platform engineers collaborating on infrastructure dashboards" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== THE PROBLEM ========== -->
+  <section>
+    <div class="container">
+      <span class="label">The Market</span>
+      <h2>Everyone needs platform engineers.<br>Nobody can find them.</h2>
+      <p>
+        80% of large enterprises now have platform engineering teams. Almost none can staff them properly. Salaries are up 25&ndash;35% since 2023, roles sit open for 90+ days, and the engineers who can do Kubernetes, IaC, CI/CD, and security all at once are being fought over by every company in the country.
+      </p>
+      <p>
+        This guide is the data and framework you need to build your platform team &mdash; whether you're starting from zero or scaling from 3 to 12.
+      </p>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-number">80%</div>
+          <div class="stat-label">of large enterprises have platform teams</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">13%</div>
+          <div class="stat-label">have reached platform maturity</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">90+</div>
+          <div class="stat-label">days avg. time to fill senior roles</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">27%</div>
+          <div class="stat-label">more pay vs. traditional DevOps</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SALARY DATA ========== -->
+  <section id="salaries">
+    <div class="container">
+      <span class="label">Salary Benchmarks</span>
+      <h2>What platform engineers actually cost in 2026</h2>
+      <p>Real numbers from market data, not aspirational ranges from job posting sites. These are base salaries &mdash; total comp at large tech companies can add $50K&ndash;$100K+ via equity.</p>
+
+      <h3>North America Base Salary (USD)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Junior (1&ndash;3 yr)</th>
+              <th>Mid (3&ndash;5 yr)</th>
+              <th>Senior (7+ yr)</th>
+              <th>Principal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Infrastructure Platform Eng</strong></td><td>$95K&ndash;$125K</td><td>$115K&ndash;$165K</td><td>$155K&ndash;$210K</td><td>$220K&ndash;$270K</td></tr>
+            <tr><td><strong>DevEx Platform Engineer</strong></td><td>$100K&ndash;$130K</td><td>$125K&ndash;$175K</td><td>$160K&ndash;$215K</td><td>$225K&ndash;$275K</td></tr>
+            <tr><td><strong>Security Platform Engineer</strong></td><td>$105K&ndash;$135K</td><td>$130K&ndash;$180K</td><td>$165K&ndash;$225K</td><td>$235K&ndash;$290K</td></tr>
+            <tr><td><strong>Reliability Platform Eng</strong></td><td>$100K&ndash;$130K</td><td>$120K&ndash;$170K</td><td>$155K&ndash;$215K</td><td>$225K&ndash;$275K</td></tr>
+            <tr><td><strong>Platform Product Manager</strong></td><td>$95K&ndash;$120K</td><td>$120K&ndash;$160K</td><td>$150K&ndash;$200K</td><td>$195K&ndash;$260K</td></tr>
+            <tr><td><strong>Head of Platform Eng</strong></td><td>&mdash;</td><td>&mdash;</td><td>$200K&ndash;$275K</td><td>$260K&ndash;$350K+</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="key-stats">
+        <div class="key-stat">
+          <strong>$160K average</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">U.S. platform engineer salary (down from $193K in 2024 as more mid-levels enter)</span>
+        </div>
+        <div class="key-stat">
+          <strong>85% are senior roles</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">The vast majority of posted platform roles require 7+ years &mdash; the junior pipeline barely exists</span>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 48px;">European Comparison &mdash; Where the Talent Gap Gets Interesting</h3>
+      <img src="images/global-map.jpg" alt="US-Europe connectivity network" class="section-photo" style="max-height: 320px; object-fit: cover;">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Region</th>
+              <th>Avg. Salary (USD)</th>
+              <th>vs. U.S. Savings</th>
+              <th>East Coast Overlap</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Western Europe</strong> (UK, Germany, France)</td><td>$95K&ndash;$140K</td><td>15&ndash;25%</td><td>5&ndash;6 hours</td></tr>
+            <tr><td><strong>Southern Europe</strong> (Italy, Spain)</td><td>$70K&ndash;$110K</td><td>30&ndash;40%</td><td>6 hours</td></tr>
+            <tr><td><strong>Eastern Europe</strong> (Romania, Poland)</td><td>$55K&ndash;$95K</td><td>35&ndash;50%</td><td>6&ndash;7 hours</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.88rem;">
+        These aren't offshore contractors on freelancer platforms. These are senior engineers from mature European tech markets with strong CS education systems, fluent English, and GDPR compliance built in. Sorint has offices and recruiting teams on the ground across all seven countries.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== CTA 1 ========== -->
+  <div class="cta-wrap">
+    <div class="cta-banner">
+      <h3>Want to benchmark your specific platform roles?</h3>
+      <p>Our platform engineers can review your open reqs, tell you if your comp is competitive, and show you where equivalent talent exists in Europe at 30% less.</p>
+      <a href="#talk" class="btn">Book a Free 30-Min Assessment</a>
+    </div>
+  </div>
+
+  <!-- ========== TEAM STRUCTURE ========== -->
+  <section id="team">
+    <div class="container">
+      <span class="label">Team Structure</span>
+      <h2>The 6 roles of a modern platform team</h2>
+      <p>The days of &ldquo;hire a couple DevOps people and call it a platform team&rdquo; are over. In 2026, mature platform organizations have distinct specializations.</p>
+
+      <div class="role-card">
+        <h3>Head of Platform Engineering</h3>
+        <p class="role-meta">Hire: 1st or 2nd &bull; Senior: $200K&ndash;$350K+</p>
+        <p>Strategic leadership, roadmap ownership, stakeholder alignment. 32.9% of platform teams now report to a dedicated HOPE. Without one, the team operates reactively &mdash; fighting fires instead of building capabilities.</p>
+      </div>
+
+      <div class="role-card">
+        <h3>Infrastructure Platform Engineer</h3>
+        <p class="role-meta">Hire: 1st or 2nd &bull; Senior: $155K&ndash;$210K</p>
+        <p>Builds the resource layer &mdash; compute, networking, storage, cluster management, IaC. This is the foundation. Look for: deep Kubernetes, Terraform/Pulumi, and the BACK stack (Backstage, ArgoCD, Crossplane, Kyverno).</p>
+      </div>
+
+      <div class="role-card">
+        <h3>Reliability Platform Engineer</h3>
+        <p class="role-meta">Hire: 2nd or 3rd &bull; Senior: $155K&ndash;$215K</p>
+        <p>Production stability &mdash; SLOs, incident management, observability, chaos engineering. The evolution of SRE into the platform context. Mature observability reduces MTTR by ~40%.</p>
+      </div>
+
+      <div class="role-card">
+        <h3>Security Platform Engineer</h3>
+        <p class="role-meta">Hire: 3rd&ndash;5th (earlier if regulated) &bull; Senior: $165K&ndash;$225K</p>
+        <p>Embeds security into the platform &mdash; policy engines, secrets management, compliance automation. 93% of teams can't integrate app security with cloud security. Commands the highest salary premiums of any platform role.</p>
+      </div>
+
+      <div class="role-card">
+        <h3>Developer Experience (DevEx) Engineer</h3>
+        <p class="role-meta">Hire: 4th or 5th &bull; Senior: $160K&ndash;$215K</p>
+        <p>Reduces developer friction &mdash; portal UIs, CLIs, documentation, golden paths. The #1 challenge in platform engineering is developer adoption. This role exists to solve it.</p>
+      </div>
+
+      <div class="role-card">
+        <h3>Platform Product Manager</h3>
+        <p class="role-meta">Hire: 3rd&ndash;5th &bull; Senior: $150K&ndash;$200K</p>
+        <p>User research (your developers are the users), roadmap execution, measuring adoption. Only 21.6% of organizations have a dedicated PPM. The other 78.4% wonder why developers don't use their platform.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="stages">
+    <div class="container">
+      <span class="label">Hiring Sequence</span>
+      <h2>Build in stages</h2>
+
+      <div class="stage">
+        <h3>Stage 1: Foundation</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">2&ndash;3 people &bull; Serves 20&ndash;40 developers</p>
+        <div class="stage-roles">
+          <span>Head of Platform Eng</span>
+          <span>Infrastructure Platform Eng</span>
+          <span>Reliability Platform Eng</span>
+        </div>
+        <p>Start here. Leadership, someone to build the infrastructure layer, and someone to keep it running.</p>
+        <div class="cost">Estimated salary cost: $450K&ndash;$650K/year</div>
+      </div>
+
+      <div class="stage">
+        <h3>Stage 2: Adoption</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">4&ndash;6 people &bull; Serves 40&ndash;100 developers</p>
+        <div class="stage-roles">
+          <span>+ Security Platform Eng</span>
+          <span>+ PPM or DevEx Eng</span>
+        </div>
+        <p>Add security (especially if regulated) and either product management or developer experience.</p>
+        <div class="cost">Estimated salary cost: $700K&ndash;$1.1M/year</div>
+      </div>
+
+      <div class="stage">
+        <h3>Stage 3: Scale</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">7&ndash;12 people &bull; Serves 100&ndash;200+ developers</p>
+        <div class="stage-roles">
+          <span>Infra Eng &times;2</span>
+          <span>Reliability Eng &times;2</span>
+          <span>Security Eng</span>
+          <span>DevEx Eng</span>
+          <span>PPM</span>
+        </div>
+        <p>All six roles covered. Mature platforms achieve <strong>20:1 developer-to-platform-engineer ratios</strong> while cutting time-to-market in half.</p>
+        <div class="cost">Estimated salary cost: $1.3M&ndash;$2.2M/year</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MATURITY MODEL ========== -->
+  <section id="maturity">
+    <div class="container">
+      <span class="label">Maturity Model</span>
+      <h2>Where is your platform team today?</h2>
+      <p>80% of enterprises have platform teams. Only 13% are mature. Most organizations overestimate their maturity by one full level. Plan for <strong>6&ndash;12 months per stage</strong>.</p>
+
+      <div class="maturity-level">
+        <div class="maturity-num">1</div>
+        <div class="maturity-body">
+          <h3>Ad Hoc</h3><span class="maturity-pct">13% of organizations</span>
+          <p>No dedicated platform team. DevOps/infra engineers build scripts reactively. No shared services, no developer portal.</p>
+          <p class="next-hire">Your first hire &rarr; Head of Platform Engineering + Infrastructure Platform Engineer</p>
+        </div>
+      </div>
+
+      <div class="maturity-level">
+        <div class="maturity-num">2</div>
+        <div class="maturity-body">
+          <h3>Foundational</h3><span class="maturity-pct">33% of organizations</span>
+          <p>Dedicated team exists but is reactive. Basic CI/CD, some IaC, limited self-service.</p>
+          <p class="next-hire">Your next hire &rarr; Reliability Platform Engineer + begin planning PPM</p>
+        </div>
+      </div>
+
+      <div class="maturity-level">
+        <div class="maturity-num">3</div>
+        <div class="maturity-body">
+          <h3>Standardized</h3><span class="maturity-pct">30% of organizations</span>
+          <p>Paved roads for common use cases. Internal developer portal (likely Backstage). Some self-service.</p>
+          <p class="next-hire">Your next hire &rarr; Security Platform Engineer + DevEx Engineer</p>
+        </div>
+      </div>
+
+      <div class="maturity-level">
+        <div class="maturity-num">4</div>
+        <div class="maturity-body">
+          <h3>Self-Service</h3><span class="maturity-pct">18% of organizations</span>
+          <p>Developers provision, deploy, and monitor without platform team involvement. Golden paths cover 80%+ of use cases.</p>
+          <p class="next-hire">Your next hire &rarr; Scale existing roles, add AI/ML platform capabilities</p>
+        </div>
+      </div>
+
+      <div class="maturity-level">
+        <div class="maturity-num">5</div>
+        <div class="maturity-body">
+          <h3>Product-Oriented</h3><span class="maturity-pct">6% of organizations</span>
+          <p>Platform treated as an internal product with users, roadmap, and NPS. Developer adoption actively tracked.</p>
+          <p class="next-hire">Top 6% &rarr; Additional specializations + dedicated AI platform engineers</p>
+        </div>
+      </div>
+
+      <div class="key-stats" style="margin-top: 24px;">
+        <div class="key-stat">
+          <strong>29.6% don't measure success</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">Down from 45% in 2024 &mdash; still a critical vulnerability. Can't prove value? Can't protect headcount.</span>
+        </div>
+        <div class="key-stat">
+          <strong>40.9% can't show value in 12 months</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">Only 35.2% deliver measurable value within 6 months. Teams that can't prove ROI lose budget first.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA 2 ========== -->
+  <div class="cta-wrap">
+    <div class="cta-banner">
+      <h3>Not sure where your team falls?</h3>
+      <p>Our engineers have helped companies at every maturity level build and staff platform teams. In 30 minutes we can assess your current state and map your next 2&ndash;3 hires.</p>
+      <a href="#talk" class="btn">Book a Free Gap Assessment</a>
+    </div>
+  </div>
+
+  <!-- ========== HIRING PLAYBOOK ========== -->
+  <section id="playbook">
+    <div class="container">
+      <span class="label">Hiring Playbook</span>
+      <h2>Why your platform engineer job posting isn't working</h2>
+
+      <ul class="problem-list">
+        <li>
+          <strong>You're looking for a unicorn.</strong>
+          Most postings list 15&ndash;20 required skills spanning infrastructure, security, development, observability, and CI/CD. That person doesn't exist &mdash; or costs $300K+ with 4 competing offers. Hire for 2&ndash;3 core skills. Train the rest.
+        </li>
+        <li>
+          <strong>Your recruiters can't evaluate the candidates.</strong>
+          Traditional recruiters pattern-match resumes. They can't tell if someone actually knows Crossplane or just listed it. You get 20 resumes and hope 2 are relevant.
+        </li>
+        <li>
+          <strong>You're only looking domestically.</strong>
+          The U.S. platform engineering talent pool is tapped out. Every company is competing for the same people in the same geographies. Salaries keep climbing, roles stay open for months.
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section id="blended">
+    <div class="container">
+      <span class="label">Blended Teams</span>
+      <h2>The blended team model</h2>
+      <p>The most effective approach in 2026: <strong>U.S.-based leadership combined with European senior engineers</strong> from mature tech markets.</p>
+
+      <h3>Example: Building a Stage 2 Team (5 people)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Role</th><th>Location</th><th>Salary</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Head of Platform Eng</strong></td><td>U.S. (hybrid)</td><td>$220K</td><td>Must be local for stakeholders</td></tr>
+            <tr><td><strong>Sr. Infrastructure Eng</strong></td><td>U.S. or EU</td><td>$170K / $105K</td><td>Can be remote</td></tr>
+            <tr><td><strong>Reliability Platform Eng</strong></td><td>Romania / Poland</td><td>$85K</td><td>6&ndash;7 hr overlap with East Coast</td></tr>
+            <tr><td><strong>Security Platform Eng</strong></td><td>Romania / Poland</td><td>$90K</td><td>GDPR-native compliance culture</td></tr>
+            <tr><td><strong>DevEx Platform Eng</strong></td><td>U.S. or EU</td><td>$160K / $100K</td><td>Developer empathy required</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="key-stats" style="margin-top: 32px;">
+        <div class="key-stat">
+          <strong>Blended cost: $660K&ndash;$770K/yr</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">vs. $850K&ndash;$1.1M all-U.S. &mdash; 25&ndash;35% savings with the same quality and overlapping time zones.</span>
+        </div>
+        <div class="key-stat">
+          <strong>Not offshore outsourcing</strong><br>
+          <span style="color: var(--text-muted); font-size: 0.88rem;">Embedded engineers from our offices in Romania, Poland, Italy, Spain, Germany, France, and the UK. Same standups. Same Slack. Same mission.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CREDIBILITY ========== -->
+  <section>
+    <div class="container">
+      <span class="label">Who We Are</span>
+      <h2>An engineering company that places engineers &mdash;<br>not a staffing agency</h2>
+
+      <p>
+        We strategically engineer business and technology initiatives &mdash; delivering solutions from discovery and implementation to full support and maintenance, 24&times;7&times;365. Through a workforce of 1,500+ professionals spanning 17 offices across the U.S. and Europe. Known for our <strong>98% customer retention rate</strong>.
+      </p>
+
+      <!-- Hero photo -->
+      <img src="images/team-collab.jpg" alt="Sorint engineering presentation" class="section-photo">
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-number">1,500+</div>
+          <div class="stat-label">engineers across the U.S. &amp; Europe</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">years delivering enterprise IT</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">40+</div>
+          <div class="stat-label">technology partners</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">98%</div>
+          <div class="stat-label">customer retention rate</div>
+        </div>
+      </div>
+
+      <div class="diff-grid" style="margin-top: 32px;">
+        <div class="diff-card">
+          <div class="diff-icon"><svg width="20" height="20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Engineers vet every candidate</h3>
+          <p>When we assess a platform engineer, our own senior engineers run the technical evaluation &mdash; not a recruiter matching keywords. We built <strong>Agola</strong>, an open-source CI/CD platform. Platform engineering isn't a service line we added last year.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><svg width="20" height="20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <h3>Engineers where you need them</h3>
+          <p>Offices and recruiting teams on the ground across the U.S., Italy, Romania, Poland, Spain, Germany, France, and the UK. Senior platform talent in overlapping time zones at rates that work for your budget.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><svg width="20" height="20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h3>We've done the work this guide describes</h3>
+          <p>VMware-to-OpenShift migrations. Ansible automation at enterprise scale. Multi-cloud architectures for global companies. We place engineers for this work because our engineers do this work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CASE STUDIES ========== -->
+  <section>
+    <div class="container">
+      <span class="label">Client Results</span>
+      <h2>Real outcomes from real engagements</h2>
+
+      <div class="case-study">
+        <div class="case-study-img">
+          <img src="images/case-datacenter.jpg" alt="Enterprise data center infrastructure">
+        </div>
+        <div class="case-study-body">
+          <h3>U.S. Public Utility &mdash; Infrastructure Automation</h3>
+          <p class="case-study-meta">$100B+ revenue &bull; Multi-state utility provider &bull; Red Hat Ansible + Azure DevOps</p>
+          <p>No automation in place. Relying on individual bash scripts. No centralized platform. Sorint designed and implemented a full automation and compliance framework spanning provisioning, CI/CD, disaster recovery, patch management, and infrastructure optimization.</p>
+          <div class="case-study-results">
+            <div class="case-result">
+              <div class="case-result-num">278 hrs</div>
+              <div class="case-result-label">saved annually in operational tasks</div>
+            </div>
+            <div class="case-result">
+              <div class="case-result-num">$1M</div>
+              <div class="case-result-label">in cost savings</div>
+            </div>
+            <div class="case-result">
+              <div class="case-result-num">Near-zero</div>
+              <div class="case-result-label">manual intervention in provisioning, patching &amp; DR</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <div class="case-study-img">
+          <img src="images/Picture-2.png" alt="illycaffe">
+        </div>
+        <div class="case-study-body">
+          <h3>illycaff&egrave; &mdash; Cloud Migration &amp; Managed Services</h3>
+          <p class="case-study-meta">&euro;600M+ revenue &bull; 140+ countries &bull; AWS + Azure multi-cloud</p>
+          <p>Three crashes to a critical ERP system within 2 months. No SLA. Governance breakdown. Sorint executed a complete cloud migration, JD Edwards upgrade, and implemented 24&times;7 managed services with FinOps.</p>
+          <div class="case-study-results">
+            <div class="case-result">
+              <div class="case-result-num">50%</div>
+              <div class="case-result-label">higher performance on workloads</div>
+            </div>
+            <div class="case-result">
+              <div class="case-result-num">10%</div>
+              <div class="case-result-label">IT cost reduction</div>
+            </div>
+            <div class="case-result">
+              <div class="case-result-num">24/7</div>
+              <div class="case-result-label">global managed services coverage</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <div class="case-study-img">
+          <img src="images/Picture-1.jpg" alt="Borsa Italiana">
+        </div>
+        <div class="case-study-body">
+          <h3>ELITE (Borsa Italiana) &mdash; Platform Delivery</h3>
+          <p class="case-study-meta">London Stock Exchange Group &bull; Financial services</p>
+          <p>Delivered within budget while maintaining flexibility to adapt evolving requirements. Governance framework ensured quality without sacrificing agility.</p>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <div class="case-study-img">
+          <img src="images/Picture-3.jpg" alt="Sorgenia renewable energy">
+        </div>
+        <div class="case-study-body">
+          <h3>Sorgenia &mdash; IoT &amp; Operational Technology</h3>
+          <p class="case-study-meta">Italian energy company &bull; IoT infrastructure</p>
+          <p>Standout synergy, timely reporting, and consistent response times across complex operational technology needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS + CTA ========== -->
+  <div class="dark-bottom">
+
+  <div class="dark-card">
+  <section>
+    <div>
+      <span class="label">What Clients Say</span>
+      <h2>Trusted by technology leaders</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <blockquote>&ldquo;Gold medal. SORINT could not do better, perfect! Every promise and every deadline was met!&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <img src="images/Fabio-Bogoni-80x80.png" alt="Fabio Bogoni">
+            <div>
+              <strong>Fabio Bogoni</strong>
+              <span>Head of Technology, Operations &amp; Security, illycaff&egrave;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <blockquote>&ldquo;The governance factor ensured the project is delivered within budget, while maintaining flexibility to adapt our evolving needs.&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <img src="images/Giordano-Sassaroli-80x80.png" alt="Giordano Sassaroli">
+            <div>
+              <strong>Giordano Sassaroli</strong>
+              <span>Head of Product Development, ELITE &ndash; Borsa Italiana</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <blockquote>&ldquo;Synergy, timely management of reports, and consistent response time to operational needs stood out for us!&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <img src="images/Federico-Piavani-78x80.png" alt="Federico Piavani">
+            <div>
+              <strong>Federico Piavani</strong>
+              <span>Head of IoT, Sorgenia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img src="images/hackathon.jpg" alt="Sorint hackathon event" class="section-photo" style="margin-top: 32px;">
+      <p style="text-align: center; color: rgba(255,255,255,0.4); font-size: 0.82rem; margin-top: 12px;">Sorint engineering community &mdash; 1,500+ professionals across 17 offices</p>
+    </div>
+  </section>
+
+  <div class="final-cta" id="talk">
+    <div>
+      <h2>Ready to build your platform team?</h2>
+      <p class="subhead" style="margin: 0 auto 12px;">You just read the playbook. We can help you run it.</p>
+
+      <div class="final-cta-grid">
+        <div class="final-cta-box">
+          <h3>Talk to an engineer</h3>
+          <p>Free Platform Team Gap Assessment. 30 minutes with one of our platform engineers. We review your team, stack, and open roles &mdash; then map your next 2&ndash;3 hires. No sales pitch.</p>
+          <a href="https://calendly.com" class="btn" target="_blank" rel="noopener" style="margin-top: 12px; background: var(--blue); color: #fff;">Book Your Assessment</a>
+        </div>
+        <div class="final-cta-box">
+          <h3>Stay in the loop</h3>
+          <p>Not ready to talk? We publish platform engineering hiring insights regularly. No spam, unsubscribe anytime.</p>
+          <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="email" name="email" placeholder="Work email" required>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <img src="images/SORINT.us-dark-blue-black-150x43.png" alt="SORINT.US"><br>
+      <p>A division of <a href="https://www.sorint.com" target="_blank" rel="noopener">Sorint.Lab</a> &bull; Cambridge, MA &bull; <a href="mailto:welisten@sorint.com">welisten@sorint.com</a></p>
+      <p style="margin-top: 8px; font-size: 0.75rem;">Data: Platform Engineering Community Survey (518 practitioners), Glassdoor, Salary.com, PayScale, Gartner, CNCF. &copy; 2026 SORINT.US</p>
+    </div>
+  </footer>
+
+  </div><!-- end .dark-card -->
+  </div><!-- end .dark-bottom -->
+
+</body>
+</html>
